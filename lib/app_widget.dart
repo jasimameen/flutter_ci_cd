@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter CI/CD App',
       theme: ThemeData(
         // useMaterial3: true,
-        primarySwatch: Provider.of(context),
+        primarySwatch: Provider.of(context), 
       ),
       home: const MyHomePage(title: 'Flutter CI/CD App'),
     );
